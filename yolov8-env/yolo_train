@@ -1,0 +1,9 @@
+from ultralytics import YOLO
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+model = YOLO('yolov8n.pt')  # 'yolov8s.pt', 'yolov8m.pt', or 'yolov8l.pt'
+data_path = os.getenv("DATA_PATH1")
+model.train(data= data_path, epochs=50, imgsz=640)
+model.save('my_trained_model.pt')

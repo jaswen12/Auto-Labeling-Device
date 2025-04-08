@@ -6,8 +6,16 @@ __pycache__/
 
 # Virtual Envs
 venv/
+bin/
+etc/
+include/
+lib/
 env/
-yolov8-env/
+Scripts/
+share/
+
+#testing data
+my_dataset/
 
 # VSCode
 .vscode/
@@ -23,14 +31,10 @@ Thumbs.db
 # Environment & Secrets
 .env
 
-# folders
-my_dataset/
-
 # Data & Cache
 *.log
 *.csv
 *.json
 *.h5
 *.db
-datasets/
 runs/
