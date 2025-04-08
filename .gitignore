@@ -30,7 +30,7 @@ Thumbs.db
 
 # Environment & Secrets
 .env
-
+.pyvenv.cfg
 # Data & Cache
 *.log
 *.csv
