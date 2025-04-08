@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual Envs
+venv/
+env/
+yolov8-env/
+
+# VSCode
+.vscode/
+.history/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Environment & Secrets
+.env
+
+# folders
+my_dataset/
+
+# Data & Cache
+*.log
+*.csv
+*.json
+*.h5
+*.db
+datasets/
+runs/
